@@ -2,7 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/portainer/badge/?version=latest)](http://portainer.readthedocs.io/en/latest/?badge=latest)
 
-This repository hosts the official templates (**'Apps Templates'**) definitions for portainer.
+This repository hosts a fork of the official templates (**'Apps Templates'**) definitions for portainer.
 
 Documentation is available [ReadTheDocs](http://portainer.readthedocs.io/en/latest/templates.html) for more information about the template definition format and how to deploy your own templates.
 
@@ -32,3 +32,4 @@ Documentation is available [ReadTheDocs](http://portainer.readthedocs.io/en/late
 * Redmine (based on `redmine:latest`)
 * Odoo (based on `odoo:latest`)
 * Sematext Docker Agent (based on `sematext/sematext-agent-docker:latest`)
+* Wiki.js (based on `requarks/wiki:2`)
