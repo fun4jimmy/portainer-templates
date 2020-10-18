@@ -19,7 +19,7 @@
 				}
 			],
 			"volumes": [{
-					"container": "/var/lib/postgresql/data"
+					"container": "db-data"
 				}
 			]
 		}
