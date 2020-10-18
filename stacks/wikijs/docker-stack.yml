@@ -10,7 +10,7 @@ services:
       driver: "none"
     restart: unless-stopped
     volumes:
-      - db-data:/var/lib/postgresql/data
+      - /var/lib/postgresql/data
 
   wiki:
     image: requarks/wiki:2
@@ -28,6 +28,3 @@ services:
     ports:
       - 3000
       - 3443
-
-volumes:
-  db-data:
