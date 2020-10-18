@@ -28,8 +28,3 @@ services:
     ports:
       - 3000
       - 3443
-
-volumes:
-  db-data:
-    # specifying the name explicitly as a workaround bug https://github.com/portainer/portainer/issues/1989
-    name: "db-data"
