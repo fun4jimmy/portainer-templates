@@ -1061,6 +1061,24 @@
 	    "description": "CockroachDB cluster",
 	    "note": "Deploys an insecure CockroachDB cluster, please refer to <a href=\"https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-docker-swarm.html\" target=\"_blank\">CockroachDB documentation</a> for production deployments.",
 	    "stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/cockroachdb/edge/docker-stack.yml"
+	  },
+	  {
+		"title": "Wiki.js",
+		"type": 3,
+		"categories": ["CMS"],
+		"description": "The most powerful and extensible open source Wiki software.",
+		"logo": "https://wiki.js.org/img/logo.fc80554c.svg",
+		"platform": "linux",
+		"repository": {
+			"url": "https://github.com/fun4jimmy/portainer-templates",
+			"stackfile": "stacks/wikijs/docker-stack.yml"
+		},
+		"env": [{
+			"name": "WIKIJS_CONFIG_FILE",
+			"label": "Wiki js Config",
+			"description": "Path to the Wiki.js configuration yml file in the wiki container.",
+			"default": ""
+		}]
 	  }
 	]
 }
