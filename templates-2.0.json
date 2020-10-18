@@ -1074,11 +1074,16 @@
 				"stackfile": "stacks/wikijs/docker-stack.yml"
 			},
 			"env": [{
-				"name": "WIKIJS_CONFIG_FILE",
-				"label": "Wiki js Config",
-				"description": "Path to the Wiki.js configuration yml file in the wiki container.",
-				"default": ""
-				}]
+					"name": "WIKIJS_CONFIG_FILE",
+					"label": "Wiki js Config",
+					"description": "Path to the Wiki.js configuration yml file in the wiki container.",
+					"default": ""
+				}
+			],
+			"volumes": [{
+					"container": "db-data"
+				}
+			]
 		}
 	]
 }
