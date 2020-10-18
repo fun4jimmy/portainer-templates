@@ -28,3 +28,6 @@ services:
     ports:
       - 3000
       - 3443
+
+volumes:
+  db-data:
